@@ -36,7 +36,7 @@ antigen bundle StackExchange/blackbox
 antigen bundle zsh-users/zsh-syntax-highlighting
 #
 # # Load the theme.
-antigen theme tkaefer/oh-my-zsh-tkaefer themes/tkaefer
+antigen theme tkaefer/oh-my-zsh-theme themes/tkaefer
 #
 # # Tell antigen that you're done.
 antigen apply
