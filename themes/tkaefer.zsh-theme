@@ -88,7 +88,7 @@ function _git_time_since_commit() {
 }
 
 local ret_status="%(?:%{$fg_bold[green]%}:%{$fg_bold[red]%})%?%{$reset_color%}"
-PROMPT=$'\n$(ssh_connection)$(_user_host)$(my_git_prompt) $(_date) $(battery_time_remaining) $(battery_pct_prompt): %~\n[${ret_status}] %# '
+PROMPT=$'\n$(ssh_connection)$(_user_host)$(my_git_prompt) $(_date): %~\n[${ret_status}] %# '
 
 ZSH_THEME_PROMPT_RETURNCODE_PREFIX="%{$fg_bold[red]%}"
 ZSH_THEME_GIT_PROMPT_PREFIX=" $fg[white]‹ %{$fg_bold[yellow]%}"
